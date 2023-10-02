@@ -14,6 +14,8 @@
 MODULE_AUTHOR("Tarou Tnaka");
 MODULE_LICENSE("Dual BSD/GPL");
 
+#define ioremap_nocache(x,y) ioremap(x,y)
+
 #define DRIVER_NAME "hoge"
 
 static const unsigned int minor_base = 0;
