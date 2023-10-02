@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Linux module intermediate files
+.*.cmd
+*.o
+Module.symvers
+modules.order
+*.ko
+*.mod
+*.mod.c
+
+# editor files
+*~
+.*.sw*
+
